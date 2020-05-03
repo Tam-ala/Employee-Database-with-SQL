@@ -9,13 +9,17 @@ employees.sex,
 employees.hire_date,
 salaries.salary
 FROM employees
-INNER JOIN salaries ON
-employees.emp_no = salaries.emp_no;
+    INNER JOIN salaries 
+    ON employees.emp_no = salaries.emp_no;
 
 
 -- List first name, last name, and hire date for employees who were hired in 1986.
 ---------------------------------------------------------------------------------------
-
+SELECT first_name, last_name, hire_date 
+FROM employees 
+WHERE hire_date 
+BETWEEN '1/1/86' 
+AND '12/31/86';
 
 
 -- List the manager of each department with the following information: 
@@ -27,10 +31,10 @@ departments.dept_name,
 employees.last_name, 
 employees.first_name
 FROM departments
-INNER JOIN dept_manager
-ON departments.dept_no = dept_manager.dept_no
-INNER JOIN employees
-ON dept_manager.emp_no = employees.emp_no;
+    INNER JOIN dept_manager
+    ON departments.dept_no = dept_manager.dept_no
+    INNER JOIN employees
+    ON dept_manager.emp_no = employees.emp_no;
 
 
 -- List the department of each employee with the following information: 
@@ -41,10 +45,10 @@ departments.dept_name,
 employees.last_name,
 employees.first_name
 FROM dept_emp 
-INNER JOIN departments 
-ON departments.dept_no = dept_emp.dept_no
-INNER JOIN employees
-ON dept_emp.emp_no = employees.emp_no;
+    INNER JOIN departments 
+    ON departments.dept_no = dept_emp.dept_no
+    INNER JOIN employees
+    ON dept_emp.emp_no = employees.emp_no;
 
 
 -- List first name, last name, and sex for employees whose 
@@ -52,7 +56,9 @@ ON dept_emp.emp_no = employees.emp_no;
 -----------------------------------------------------------------------------------------------
 SELECT first_name, last_name, sex
 FROM employees
-WHERE first_name = 'Hercules' AND last_name LIKE 'B%';
+WHERE first_name = 'Hercules' 
+AND last_name 
+LIKE 'B%';
 
 
 -- List all employees in the Sales department 
