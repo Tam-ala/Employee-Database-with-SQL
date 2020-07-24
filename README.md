@@ -6,7 +6,7 @@
 
 In this assignment, I designed the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data through Data Engineering and Data Analysis. The data contains employees hired at "Pewlett Hackard" from the 1980s and 1990s which were stored in six CSV files.
 
-#### Data Engineering
+### Data Engineering
 
 * Used the information to create a table schema for each of the six CSV files. 
 * Imported each CSV file into the corresponding SQL table. 
@@ -15,7 +15,7 @@ In this assignment, I designed the tables to hold data in the CSVs, import the C
 * Tool used to sketch ERD: [Quick Database Diagrams](http://www.quickdatabasediagrams.com)
 * Tool used to make queries: [Postgres](https://www.postgresql.org/)
 
-#### Data Analysis
+### Data Analysis
 
 * Refer here to look at the ERD: [Employee ERD](images/Employee_ERD_Image.png)
 * Refer here to look at Employee Schema and queries: [Employee Schema](Employee_Schema.sql) & [Employee Data Analysis](Employee_Data_Analysis.sql)
