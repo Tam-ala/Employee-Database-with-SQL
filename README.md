@@ -14,19 +14,21 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
 
 Note: You may hear the term "Data Modeling" in place of "Data Engineering," but they are the same terms. Data Engineering is the more modern wording instead of Data Modeling.
 
-#### Data Modeling
+#### Data Modeling & Data Engineering
 
-Tool used to sketch ERD: [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
+* Used the information to create a table schema for each of the six CSV files. 
+* Imported each CSV file into the corresponding SQL table. 
 
-#### Data Engineering
-
-* Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints. Be sure to create tables in the correct order to handle foreign keys.
-
-* Import each CSV file into the corresponding SQL table. **Note** be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
+CSVs used: [Data Folder](https://github.com/Tam-ala/sql-challenge/blob/master/data)
+Tool used to sketch ERD: [Quick Database Diagrams](http://www.quickdatabasediagrams.com)
+Tool used to make queries: [Postgres](https://www.postgresql.org/)
 
 #### Data Analysis
 
-Once you have a complete database, do the following:
+Refer here to look at the ERD: [Employee ERD](Employee ERD Image.png)
+Go here to look at Employee Schema and queries: [Employee Schema](Employee Data Analysis.sql) and [Employee Data Analysis](Employee Data Analysis.sql)
+
+After creating the EmployeeSQL database, I did the following:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
