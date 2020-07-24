@@ -19,14 +19,14 @@ Note: You may hear the term "Data Modeling" in place of "Data Engineering," but 
 * Used the information to create a table schema for each of the six CSV files. 
 * Imported each CSV file into the corresponding SQL table. 
 
-CSVs used: [Data Folder](https://github.com/Tam-ala/sql-challenge/blob/master/data)
-Tool used to sketch ERD: [Quick Database Diagrams](http://www.quickdatabasediagrams.com)
-Tool used to make queries: [Postgres](https://www.postgresql.org/)
+* CSVs used: [Data Folder](https://github.com/Tam-ala/sql-challenge/blob/master/data)
+* Tool used to sketch ERD: [Quick Database Diagrams](http://www.quickdatabasediagrams.com)
+* Tool used to make queries: [Postgres](https://www.postgresql.org/)
 
 #### Data Analysis
 
-Refer here to look at the ERD: [Employee ERD](Employee ERD Image.png)
-Go here to look at Employee Schema and queries: [Employee Schema](Employee Data Analysis.sql) and [Employee Data Analysis](Employee Data Analysis.sql)
+* Refer here to look at the ERD: [Employee ERD](https://github.com/Tam-ala/sql-challenge/blob/master/Employee ERD Image.png)
+* Go here to look at Employee Schema and queries: [Employee Schema](https://github.com/Tam-ala/sql-challenge/blob/master/Employee Schema.sql) & [Employee Data Analysis](https://github.com/Tam-ala/sql-challenge/blob/master/Employee Data Analysis.sql)
 
 After creating the EmployeeSQL database, I did the following:
 
