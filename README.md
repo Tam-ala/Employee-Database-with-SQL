@@ -1,6 +1,6 @@
 # SQL Homework - Employee Database: A Mystery in Two Parts
 
-![sql image](images/sql.png) [postgres logo](images/logoPostgreSQL.png)
+![sql image](images/sql.png) ![postgres logo](images/logoPostgreSQL.png)
 
 ## Background
 
