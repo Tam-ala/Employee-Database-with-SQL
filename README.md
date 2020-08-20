@@ -1,6 +1,6 @@
 # Employee Database with SQL
 
-![sql image](images/sql.png) ![postgres logo](images/logoPostgreSQL.png)
+![postgres logo](images/logoPostgreSQL.png) ![sql image](images/sql.png) 
 
 ## Background
 
