@@ -1,4 +1,4 @@
-# SQL Homework - Employee Database: A Mystery in Two Parts
+# Employee Database with SQL
 
 ![sql image](images/sql.png) ![postgres logo](images/logoPostgreSQL.png)
 
